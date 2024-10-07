@@ -23,8 +23,7 @@ This project demonstrates a text analysis pipeline built using LangGraph and Gro
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/langgraph-groq-pipeline.git
-    cd langgraph-groq-pipeline
+    git clone https://github.com/maryamsafdar/Text-Analysis-Pipeline-Project/tree/main
     ```
 
 2. Install the required dependencies:
