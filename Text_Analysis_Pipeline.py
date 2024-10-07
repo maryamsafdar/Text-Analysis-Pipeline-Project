@@ -33,10 +33,10 @@ class State(TypedDict):
 
 # Define node functions
 def classification_node(state: State):
-    '''Classify the text into one of the categories: News, Blog, Research, or Other.'''
+    '''Classify the text into a dynamic category based on the content.'''
     prompt = PromptTemplate(
         input_variables=["text"],
-        template="Classify the following text into one of the categories: News, Blog, Research, or Other.\n\nText:{text}\n\nCategory:"
+        template="Based on the following text, please provide a category that best describes it. You can use categories such as News, Blog, Research, Entertainment, Technology, Health, or others.\n\nText: {text}\n\nCategory:"
     )
     message = HumanMessage(content=prompt.format(text=state["text"]))
     classification = llm.predict_messages([message]).content.strip()
