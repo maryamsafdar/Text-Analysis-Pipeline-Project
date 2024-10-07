@@ -11,9 +11,12 @@ This project demonstrates a text analysis pipeline built using LangGraph and Gro
 - **Text Analysis**: Classifies input text, extracts entities, and generates summaries.
 
 ### How It Works
-1. **Text Classification**: Categorizes input text into predefined categories such as News, Blog, Research, or Other.
-2. **Entity Extraction**: Identifies key entities like persons, organizations, and locations from the text.
-3. **Text Summarization**: Provides a concise summary of the input text.
+- **Text Classification**: Categorize text into News, Blog, Research, or Other.
+- **Entity Extraction**: Identify key entities like persons, organizations, and locations.
+- **Text Summarization**: Generate a concise summary of the text.
+- **Sentiment Analysis**: Analyze the tone of the text (Positive, Negative, Neutral).
+- **Keyword Extraction**: Extract important keywords or phrases.
+- **Context Analysis**: Understand the broader context or theme (Business, Technology, etc.).
 
 ## Prerequisites
 - Python 3.8+
