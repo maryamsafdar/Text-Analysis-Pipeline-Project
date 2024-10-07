@@ -116,7 +116,7 @@ workflow.add_edge("context_analysis_node", END)  # End the workflow
 app = workflow.compile()
 
 # Streamlit UI for user input
-st.title("Enhanced Text Analysis with LangGraph and Groq")
+st.title("Text Analysis Pipeline")
 st.write("Provide a piece of text to analyze using this advanced text processing pipeline.")
 
 user_input = st.text_area("Enter your text here:")
